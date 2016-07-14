@@ -1,0 +1,44 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	padding: 15px 100px 15px 100px;
+	background: -webkit-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(42,195,113,1) 0%, rgba(57,197,108,1) 15%, rgba(79,199,101,1) 23%, rgba(79,199,101,1) 31%, rgba(148,211,75,1) 100%);
+}
+
+.navbar__item a{
+	font-size: 24px;
+	color:white;
+	text-decoration: none;
+}
+
+.navbar__item--left{
+	float: left;
+}
+
+.navbar__item--left a{
+	padding-left: 60px;
+}
+
+.navbar__item--right{
+	float: right;
+}
+
+.navbar__item--right a{
+	padding-right: 30px;
+}
+
+.avatar{
+	width: 86px;
+	height: 86px;
+	border-radius: 43px;
+	-webkit-border-radius: 43px;
+	-moz-border-radius: 43px;
+	background: url(assets/img/face.jpg) no-repeat;
+}
+
+.logo{
+	height: 86px;
+}
